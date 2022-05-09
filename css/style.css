@@ -3,3 +3,61 @@
     padding: 0;
     margin: 0;
 }
+/* HEADER */
+header{
+    height: 60px;
+    background-color: black;
+    color: white;
+
+    
+
+    display: flex;
+    justify-content: end;
+}
+
+header span{
+    margin: 5px 5px 0px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: gray;
+    height: min-content;
+    width: max-content;
+    font-size: 12.5px;
+}
+
+/* MAIN */
+main{
+    height: calc(100vh - 180px);
+    background-color: black;
+    padding: 0px 70px 10px;
+}
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    width: calc(98% / 7);
+    height: calc(90% / 5);
+    background-image: url("https://picsum.photos/246/146");
+}
+.container span{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    font-size: 13px;
+    padding: 3px;
+    font-size: 12px;
+    filter: invert(1);
+}
+
+/* FOOTER */
+footer{
+    height: 120px;
+    background-color: #222;
+}
