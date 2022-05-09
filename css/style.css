@@ -15,9 +15,6 @@ header{
     height: 60px;
     background-color: black;
     color: white;
-
-    
-
     display: flex;
     justify-content: end;
 }
@@ -60,7 +57,7 @@ main{
     font-size: 13px;
     padding: 3px;
     font-size: 12px;
-    /* filter: invert(1); */
+    color: white;
 }
 
 /* FOOTER */
@@ -70,39 +67,43 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+/* FOOTER COMMON */
+footer div{
+    height: 50%;
+    font-size: 11px;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    list-style-type: none;
+}
+footer a{
+    height: 100%;
+    display: inline-block;
+    padding: 7px;
+    text-align: center;
+    line-height: 20px;
+}
+.angle-up{
+    width: 10px;
+    line-height: 33px;
+    font-size: 8px;
+}
 
-.f-left{
-    height: 100%;
+/* CENTER-footer */
+
+#green{
+    color: yellowgreen;
+}
+
+/* RIGHT-footer */
+.right-footer{
+    background-color: #4a4a4a;
+    color: red;
+    position: relative;
     display: flex;
-    font-size: 10px;
-    color: white;
-    margin: 10px;
-}
-.f-center{
-    width: 40%;
-    height: 100%;
-    background-color: aquamarine;
-    display: flex;
-}
-.f-right{
-    width: 10%;
-    height: 100%;
-    background-color: bisque; 
-}
-.l-icon{
-    width: calc(100% / 2);
-    height: 100%;
-    width: min-content;
-    text-align: center;
-}
-.f-left i{
-    text-align: center;
-    line-height: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.f-center i{
-    text-align: center;
-    line-height: 100px;
-    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
 }
